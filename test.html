@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THÔNG BÁO THAY ĐỔI CHÍNH SÁCH 4H-XE TẢI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f9fc;
+        }
+        .section-title {
+            border-left: 6px solid #10b981; /* Emerald Green */
+            padding-left: 0.75rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #1f2937;
+        }
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            height: 100%; /* Ensure card fills height in grid */
+        }
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        .tag-core { background-color: #fef3c7; color: #b45309; } /* Amber */
+        .tag-mass { background-color: #dbeafe; color: #1e40af; } /* Blue */
+        /* Custom smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="p-0 pt-16 sm:pt-20 lg:pt-24">
+    
+    <!-- Sticky Navigation Menu (Thanh Menu Điều Hướng) -->
+    <nav class="fixed top-0 left-0 right-0 bg-white shadow-lg z-50 p-3 sm:p-4 border-b border-gray-200">
+        <div class="max-w-6xl mx-auto flex justify-around space-x-2">
+            <a href="#giao-hang" class="text-sm sm:text-base font-semibold text-gray-700 hover:text-emerald-600 transition duration-150 p-2 rounded-lg hover:bg-gray-100">
+                <span class="hidden sm:inline">I.</span> Giao Hàng
+            </a>
+            <a href="#tra-hang" class="text-sm sm:text-base font-semibold text-gray-700 hover:text-emerald-600 transition duration-150 p-2 rounded-lg hover:bg-gray-100">
+                <span class="hidden sm:inline">II.</span> Trả Hàng
+            </a>
+            <a href="#che-tai" class="text-sm sm:text-base font-semibold text-gray-700 hover:text-red-600 transition duration-150 p-2 rounded-lg hover:bg-gray-100">
+                <span class="hidden sm:inline">III.</span> Chế Tài
+            </a>
+        </div>
+    </nav>
+
+    <!-- Main Content Container -->
+    <div class="max-w-6xl mx-auto bg-white rounded-3xl shadow-2xl p-6 sm:p-10 lg:p-16 mb-12">
+        <!-- Header & Mục Tiêu -->
+        <header class="text-center mb-12">
+            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-gray-900 mb-2">
+                THÔNG BÁO THAY ĐỔI CHÍNH SÁCH <span class="text-emerald-500">DỊCH VỤ 4H-XE TẢI</span>
+            </h1>
+            <p class="text-lg text-gray-600 font-semibold italic">Áp dụng từ: <span class="text-red-500 font-bold">08/08/2025</span></p>
+            <div class="mt-6 p-4 bg-emerald-50 rounded-xl border border-emerald-300 shadow-md">
+                <h2 class="text-xl font-bold text-emerald-700">MỤC TIÊU CHÍNH</h2>
+                <p class="text-gray-700 mt-1">Tăng cường Active & Productivity của tài xế hiện tại và đưa Target OTS Truck HAN & SGN về mức 80%.</p>
+            </div>
+        </header>
+
+        <!-- I. Quy Tắc Giao Hàng (Delivery Leadtime) -->
+        <section class="mb-12" id="giao-hang">
+            <h2 class="section-title mb-6">I. QUY TẮC THỜI GIAN GIAO HÀNG (DELIVERY LEADTIME)</h2>
+            <p class="text-sm text-gray-500 mb-6 italic">Áp dụng chung cho các dịch vụ: SGN/HAN-BULKY-TRUCK-INTERNAL, SGN/HAN-VAN-B2B, SGN/HAN-TRUCK-B2B, VNM-TRUCK-B2B</p>
+
+            <div class="grid md:grid-cols-2 gap-6 items-stretch">
+                <!-- Segment 1: Core Drivers -->
+                <div class="card bg-amber-50 p-6 rounded-2xl shadow-lg border-2 border-amber-300 flex flex-col">
+                    <h3 class="text-xl font-bold mb-4 text-amber-700">1. Segment: CORE Drivers</h3>
+                    <div class="tag-core inline-block px-3 py-1 text-sm font-semibold rounded-full mb-4 self-start">META/HTX/CORE/DN</div>
+                    
+                    <div class="space-y-4 flex-grow">
+                        <div class="bg-white p-4 rounded-xl shadow-inner">
+                            <p class="font-semibold text-gray-900">✅ Đơn Accepted < 13:00</p>
+                            <p class="text-sm text-gray-600 mt-1">Yêu cầu: Lấy hàng & Giao hàng TRONG NGÀY.</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-xl shadow-inner">
+                            <p class="font-semibold text-gray-900">⚠️ Đơn Accepted > 13:00</p>
+                            <ul class="list-disc list-inside text-sm text-gray-600 mt-1 space-y-1 ml-4">
+                                <li>Có Pick Up: Giao vào 24H KẾ TIẾP (tính từ thời điểm accepted).</li>
+                                <li>KHÔNG Pick Up: Khoá tài khoản lúc 0h đêm ngày D+2.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Segment 2: Mass-Growth Drivers -->
+                <div class="card bg-blue-50 p-6 rounded-2xl shadow-lg border-2 border-blue-300 flex flex-col">
+                    <h3 class="text-xl font-bold mb-4 text-blue-700">2. Segment: MASS-GROWTH Drivers</h3>
+                    <div class="tag-mass inline-block px-3 py-1 text-sm font-semibold rounded-full mb-4 self-start">Mass/Growth (Còn lại)</div>
+                    
+                    <div class="space-y-4 flex-grow">
+                        <div class="bg-white p-4 rounded-xl shadow-inner">
+                            <p class="font-semibold text-gray-900">✅ Đơn Accepted < 17:00</p>
+                            <p class="text-sm text-gray-600 mt-1">Yêu cầu: Lấy hàng & Giao hàng TRONG NGÀY.</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-xl shadow-inner">
+                            <p class="font-semibold text-gray-900">⚠️ Đơn Accepted > 17:00</p>
+                            <ul class="list-disc list-inside text-sm text-gray-600 mt-1 space-y-1 ml-4">
+                                <li>Có Pick Up: Giao vào 24H KẾ TIẾP (tính từ thời điểm accepted).</li>
+                                <li>KHÔNG Pick Up: Khoá tài khoản lúc 0h đêm ngày D+2.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- II. Quy Tắc Trả Hàng (Return Leadtime) & III. Chế Tài -->
+        <div class="grid md:grid-cols-2 gap-6 items-stretch">
+            
+            <!-- II. Quy Tắc Trả Hàng -->
+            <section id="tra-hang">
+                <h2 class="section-title mb-6">II. QUY TẮC THỜI GIAN TRẢ HÀNG (RETURN LEADTIME)</h2>
+                <div class="card bg-fuchsia-50 p-6 rounded-2xl shadow-lg border-2 border-fuchsia-300 flex flex-col">
+                    <div class="space-y-4 flex-grow">
+                        <div class="bg-fuchsia-100 p-3 rounded-xl shadow-md">
+                            <p class="text-sm font-medium text-fuchsia-700">Quy tắc CŨ: Hoàn trả trong ngày giao thất bại.</p>
+                        </div>
+
+                        <h4 class="text-lg font-bold text-fuchsia-800">QUY TẮC MỚI (NEW)</h4>
+
+                        <div class="bg-white p-4 rounded-xl shadow-inner">
+                            <p class="font-semibold text-gray-900">Đơn Accepted < 13:00</p>
+                            <p class="text-sm text-fuchsia-600 mt-1">Yêu cầu: Hoàn trả TRONG NGÀY giao thất bại.</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-xl shadow-inner">
+                            <p class="font-semibold text-gray-900">Đơn Accepted > 13:00</p>
+                            <p class="text-sm text-fuchsia-600 mt-1">Yêu cầu: Hoàn trả TRONG 24H từ khi giao thất bại.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- III. Chế Tài Vi Phạm -->
+            <section id="che-tai">
+                <h2 class="section-title mb-6">III. CHẾ TÀI VI PHẠM (PENALTY/SANCTION)</h2>
+                <div class="card bg-red-50 p-6 rounded-2xl shadow-lg border-2 border-red-300 flex flex-col">
+                    <div class="space-y-4 flex-grow">
+                        <div class="bg-red-100 p-3 rounded-xl shadow-md">
+                            <p class="text-sm font-medium text-red-700">Quy tắc CŨ: Gồm 5 mức VPL1 (Nhắc nhở) -> VPL5 (NHT) với thời gian khóa tăng dần.</p>
+                        </div>
+                        
+                        <h4 class="text-lg font-bold text-red-800">CHẾ TÀI MỚI (NEW)</h4>
+
+                        <div class="bg-white p-4 rounded-xl shadow-inner">
+                            <p class="font-semibold text-gray-900">🎯 VPL 1, 2</p>
+                            <p class="text-sm text-red-600 mt-1">Chỉ Nhắc nhở (Thay vì VPL2 khóa 24h cũ).</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-xl shadow-inner">
+                            <p class="font-semibold text-gray-900">⚠️ Các Lần Vi Phạm Tiếp Theo</p>
+                            <p class="text-sm text-red-600 mt-1">Khoá 4H + Phạt 50K/lần vi phạm.</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-xl shadow-inner">
+                            <p class="font-semibold text-gray-900">🚨 Gian Lận / Mức độ Nghiêm Trọng</p>
+                            <p class="text-sm text-red-600 mt-1">Tùy mức độ, sẽ Ngưng Hợp Tác (NHT) nếu có dấu hiệu gian lận.</p>
+                        </div>
+                    </div>
+                    
+                    <p class="text-xs text-red-400 mt-4">Ghi chú: Hệ thống sẽ Automation mở khoá khi tài xế hoàn thành đơn hàng/hoàn trả hàng.</p>
+                </div>
+            </section>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
